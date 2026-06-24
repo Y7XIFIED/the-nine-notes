@@ -1,0 +1,318 @@
+@font-face {
+  font-family: "Nasalization";
+  src: url("/Nasalization Rg.otf") format("opentype");
+}
+
+:root {
+  --bg: #f1efe7;
+  --fg: #1f1f1f;
+  --loader-bg: #e0e0d8;
+  --stroke: rgba(0, 0, 0, 0.2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nasalization", sans-serif;
+  color: var(--fg);
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1.5rem;
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 500;
+  letter-spacing: -0.1rem;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: 500;
+  letter-spacing: -0.02rem;
+  line-height: 1.1;
+}
+
+a,
+p {
+  color: var(--fg);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  overflow: hidden;
+  line-height: 1;
+}
+
+.hero {
+  position: relative;
+  width: 100vw;
+  height: 100svh;
+  background-color: var(--bg);
+  overflow: hidden;
+}
+
+.hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--loader-bg);
+  transform-origin: bottom;
+  transform: scaleY(0%);
+}
+
+.counter {
+  position: fixed;
+  right: 3rem;
+  bottom: 2rem;
+  display: flex;
+  height: 120px;
+  font-size: 120px;
+  line-height: 150px;
+  -webkit-text-stroke: 2px var(--fg);
+  clip-path: polygon(0 0, 100% 0, 100% 120px, 0 120px);
+}
+
+.counter-1,
+.counter-2,
+.counter-3 {
+  position: relative;
+  top: -15px;
+}
+
+.num1offset1 {
+  position: relative;
+  right: -30px;
+}
+
+.num1offset2 {
+  position: relative;
+  right: -15px;
+}
+
+.images-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.images-container .img {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  width: 20%;
+  aspect-ratio: 5/3;
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.images-container .img.animate-out {
+  top: unset;
+  left: unset;
+  bottom: 1.5rem;
+  right: 1.5rem;
+}
+
+.divider {
+  background-color: var(--stroke);
+}
+
+nav {
+  position: relative;
+  width: 100vw;
+  height: 5rem;
+  padding: 1.5rem 1.5rem 1.5rem 7.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-name a {
+  font-size: 1.5rem;
+}
+
+
+
+nav .divider {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  transform-origin: left;
+  transform: scaleX(0%);
+}
+
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5rem;
+  height: 100svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar .logo {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0);
+  flex-shrink: 0;
+}
+
+.logo-nine {
+  font-family: "Nasalization", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: var(--fg);
+  line-height: 1;
+  user-select: none;
+}
+
+.sidebar .divider {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1px;
+  height: 100svh;
+  transform-origin: top;
+  transform: scaleY(0%);
+}
+
+.header {
+  position: absolute;
+  top: 15%;
+  left: 7.5rem;
+  transform: translateY(-50%);
+  width: 60%;
+  z-index: 10;
+}
+
+.site-info {
+  position: absolute;
+  right: 3rem;
+  bottom: 3rem;
+  top: unset;
+  transform: none;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  z-index: 10;
+}
+
+.site-info .divider {
+  width: 100%;
+  height: 1px;
+  transform-origin: left;
+  transform: scaleX(0%);
+}
+
+.site-info-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.line {
+  overflow: hidden;
+}
+
+.tagline {
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  opacity: 0.7;
+}
+
+.signature {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 7.5rem;
+  z-index: 10;
+  opacity: 0.4;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 0.7rem;
+}
+
+.line span {
+  position: relative;
+  display: block;
+  transform: translateY(125%);
+  will-change: transform;
+}
+
+.active-singer-poster {
+  position: absolute;
+  top: 55%;
+  left: 7.5rem;
+  transform: translateY(-50%);
+  width: 40vw;
+  opacity: 0;
+  z-index: 0;
+}
+
+.active-singer-poster img {
+  width: 100%;
+  height: auto;
+  border-radius: 1.5rem;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 2.5rem;
+    letter-spacing: -0.05rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  nav .links {
+    display: none;
+  }
+
+  .images-container .img {
+    width: 30%;
+  }
+
+  .header {
+    top: 15%;
+    width: calc(100% - 4rem);
+    left: 2rem;
+  }
+
+  .active-singer-poster {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+  }
+
+  .site-info {
+    width: calc(100% - 4rem);
+    right: unset;
+    left: 2rem;
+    bottom: 2rem;
+  }
+}
