@@ -18,8 +18,8 @@ Interact dynamically with your mouse or touch to explore the visual effects! Mov
 ### Setup Instructions
 1. Clone the repository:
 ```bash
-git clone https://github.com/Y7XIFIED/the-nine-notes.git
-cd the-nine-notes
+git clone https://github.com/Y7XIFIED/The-Nin-Notes.git
+cd The-Nin-Notes
 ```
 2. Install the package dependencies:
 ```bash
@@ -32,7 +32,7 @@ npm run dev
 
 ## 📂 Project Structure
 ```text
-the-nine-notes/
+The-Nin-Notes/
 ├── .gitignore
 ├── .vercel
 │   ├── project.json
