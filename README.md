@@ -43,16 +43,16 @@ The-Nin-Notes/
 ├── package.json
 ├── public
 │   ├── assets
-│   │   ├── ariana grande.jpg
-│   │   ├── Arianna Grande.jpg
-│   │   ├── Don Toliver.jpg
-│   │   ├── Drake.jpg
-│   │   ├── kendrick lamar.jpg
-│   │   ├── Lana Del Rey.jpg
-│   │   ├── playboy carti.jpg
-│   │   ├── Sabrina Carpenter.jpg
-│   │   ├── Travis Scott.jpg
-│   │   └── Weeknd.jpg
+│   │   ├── 1.jpg
+│   │   ├── 10.jpg
+│   │   ├── 2.jpg
+│   │   ├── 3.jpg
+│   │   ├── 4.jpg
+│   │   ├── 5.jpg
+│   │   ├── 6.jpg
+│   │   ├── 7.jpg
+│   │   ├── 8.jpg
+│   │   └── 9.jpg
 │   ├── favicon.png
 │   ├── logo.png
 │   └── Nasalization Rg.otf
