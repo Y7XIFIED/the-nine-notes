@@ -5,7 +5,7 @@
 Step into a world of dynamic motion and fluid interactions. A purely fun and wildly creative web experiment.
 
 ## 🚀 Live Website
-Experience the fully interactive website live here: [https://the-nine-notes.vercel.app](https://the-nine-notes.vercel.app)
+Experience the fully interactive website live here: [Live Demo](https://the-nine-notes.vercel.app)
 
 ## Preview
 ![Preview Demo](preview.gif)
