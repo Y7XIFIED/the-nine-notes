@@ -42,6 +42,7 @@ The-Nin-Notes/
 ├── package-lock.json
 ├── package.json
 ├── public
+│   ├── 11.png
 │   ├── assets
 │   │   ├── 1.jpg
 │   │   ├── 2.jpg
@@ -54,7 +55,6 @@ The-Nin-Notes/
 │   │   ├── 9.jpg
 │   │   └── 10.jpg
 │   ├── favicon.png
-│   ├── logo.png
 │   └── Nasalization Rg.otf
 ├── script.js
 ├── styles.css
