@@ -1,5 +1,7 @@
 <h3 align="center"><b>THE NIN NOTES</b></h3>
 
+<p align="center"><img src="https://skillicons.dev/icons?i=html,css,js,vite,gsap" /></p>
+
 ![Preview Demo](preview.gif)
 
 ## 🚀 Live Website
@@ -63,7 +65,6 @@ the-nine-notes/
 ```
 
 ## 💻 Tech Stack
-<p align="center"><img src="https://skillicons.dev/icons?i=html,css,js,vite,gsap" /></p>
 
 - **HTML5 & CSS3**: Structural vectors and custom styling variables.
 - **JavaScript (ES6)**: Core logic and interactions.
