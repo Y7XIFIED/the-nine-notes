@@ -209,47 +209,47 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       name: "Ariana Grande",
       desc: "Dangerous Woman",
-      img: "/assets/ariana grande.jpg"
+      img: "/assets/1.jpg"
     },
     {
       name: "Don Toliver",
       desc: "Cactus Jack's Secret Weapon",
-      img: "/assets/Don Toliver.jpg"
+      img: "/assets/3.jpg"
     },
     {
       name: "Drake",
       desc: "6 God",
-      img: "/assets/Drake.jpg"
+      img: "/assets/4.jpg"
     },
     {
       name: "Lana Del Rey",
       desc: "Queen of Alt-Pop",
-      img: "/assets/Lana Del Rey.jpg"
+      img: "/assets/6.jpg"
     },
     {
       name: "Sabrina Carpenter",
       desc: "Pop's Newest Princess",
-      img: "/assets/Sabrina Carpenter.jpg"
+      img: "/assets/8.jpg"
     },
     {
       name: "Travis Scott",
       desc: "La Flame",
-      img: "/assets/Travis Scott.jpg"
+      img: "/assets/9.jpg"
     },
     {
       name: "The Weeknd",
       desc: "Starboy",
-      img: "/assets/Weeknd.jpg"
+      img: "/assets/10.jpg"
     },
     {
       name: "Kendrick Lamar",
       desc: "King Kendrick",
-      img: "/assets/kendrick lamar.jpg"
+      img: "/assets/5.jpg"
     },
     {
       name: "Playboi Carti",
       desc: "King Vamp",
-      img: "/assets/playboy carti.jpg"
+      img: "/assets/7.jpg"
     }
   ];
 
