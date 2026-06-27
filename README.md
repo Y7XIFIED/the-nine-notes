@@ -4,7 +4,7 @@
 
 ## 🚀 Live Website
 Experience the fully interactive website live here:
-[Live Demo](https://the-nin-notes.vercel.app)
+[Live Demo](https://the-nine-notes.vercel.app)
 
 ## 🎮 How to Control
 Interact dynamically with your mouse or touch to explore the visual effects! Move your cursor around the screen or tap anywhere on mobile devices to trigger smooth animations and interactions.

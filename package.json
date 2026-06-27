@@ -1,7 +1,7 @@
 {
   "name": "cg-konpo-lp-reveal",
   "version": "1.0.0",
-  "description": "The Nine Notes — a music artist showcase with GSAP animations",
+  "description": "The Nine Notes - a music artist showcase with GSAP animations",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
